@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /nicholitis.css
-Disallow: /images/
+Disallow: /assets/
