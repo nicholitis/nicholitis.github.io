@@ -5,16 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="nicholitis.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style type="text/css">
-  <!--quick ghetto css test-->
-  #memeshit{
-    max-width: 50%;
-  }
-</style>
 
 <body>
 
-  <div class="container">
+  <div class="content">
     <!--page content-->
     <!--navbar-->
     <div class="bar black">
@@ -23,13 +17,20 @@
       <a href="webdev.html" class="button bar-item">webdev</a>
       <a href="http://cistutoring.com/" class="button bar-item">cis tutoring</a>
     </div>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="bar-block black hide hide-large hide-medium top" style="margin-top:46px">
+      <a href="index.html" class="bar-item button padding-large">home</a>
+      <a href="gallery.html" class="bar-item button padding-large">photography</a>
+      <a href="webdev.html" class="bar-item button padding-large">webdev</a>
+      <a href="http://cistutoring.com/" class="bar-item button padding-large">cistutoring</a>
+    </div>
     <section class="container center content" style="max-width:600px">
       <h2 class="wide">Mediocre Web Development</h2>
       <p class="opacity"><i>Available for hire Fall 2017</i></p>
       <p class="center justify"><a href="mailto:admin@badwebdev.com">inquiries</a></p>
     </section>
     <div class="center">
-      <img src="/images/meme.jpg" alt="meme" id="memeshit">
+      <img src="/images/meme.jpg" alt="meme">
     </div>
     <footer class="center white padding-32">
       <a href="https://twitter.com/badwebdevdotcom" class="fa fa-twitter"></a>
